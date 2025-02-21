@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-
+import Colors from '../../constants/Colors';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
@@ -15,6 +15,7 @@ export default function TabTwoScreen() {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: Colors.skyBlue, // Apply the pastelGreen color
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
