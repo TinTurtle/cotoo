@@ -1,0 +1,4 @@
+npm install -g expo-cli
+npm install expo-router
+npm install react-native-animate
+npm install typescript @types/react @types/react-native
